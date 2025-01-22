@@ -1,6 +1,16 @@
 # RolebasedAccessControl
-Role-Based Authorization (RBAC) in a Node.js and Express 
+# Role-Based Access Control (RBAC) in Node.js and Express
 
-. Covers the entire process from setting up the project to testing role-based authorization.
-. Includes both authentication and authorization, which are critical aspects of security.
+This project demonstrates implementing **Role-Based Access Control (RBAC)** in a Node.js and Express application. The system ensures that users have appropriate permissions based on their assigned roles, enhancing security and fine-grained access control.
 
+---
+
+## Features
+
+- **User Authentication**: Secure user login and registration using JWT.
+- **Role-Based Authorization**: Define and manage user roles (e.g., Admin, Manager, User).
+- **Protected Routes**: Restrict access to routes based on user roles and permissions.
+- **MongoDB Integration**: Store user data and roles in MongoDB for scalability.
+- **Error Handling**: Comprehensive error handling for robust applications.
+
+---
